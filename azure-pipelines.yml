@@ -21,6 +21,6 @@ steps:
     location: 'North Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/SandipSeal/AzureRmPipeline-repo-1/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName MyProject'
+    overrideParameters: '-projectName myproject'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
